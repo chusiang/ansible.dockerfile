@@ -26,6 +26,7 @@ RUN echo "===> Install some package for Latticework Inc...."  && \
       curl \
       git \
       make \
+      openssh-client \
       sshpass \
       vim
 
