@@ -12,8 +12,11 @@ RUN apk add --no-cache build-base python py-pip python-dev \
 # Upgrade the pip to lastest.
 RUN pip install -U pip cffi
 
-# Setup the ansible.
+# Install the ansible.
 RUN pip install 'ansible>=2.3.0,<2.4.0'
+
+# Install the ansible-lint.
+RUN pip install 'ansible-lint'
 
 # for disable localhost warning message.
 RUN mkdir /etc/ansible && \
