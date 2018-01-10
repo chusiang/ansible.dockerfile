@@ -8,7 +8,8 @@ A Docker image for run the [Ansible][ansible_official] Engine on Alpine Linux.
 
 ## Supported tags and respective `Dockerfile` links
 
-- `2.3`, `latest` [*(Dockerfile)*](v2.3/Dockerfile)
+- `2.3`, [*(Dockerfile)*](v2.3/Dockerfile)
+- `2.4`, `latest` [*(Dockerfile)*](v2.4/Dockerfile)
 
 ## Build image
 
