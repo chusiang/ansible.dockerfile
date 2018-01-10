@@ -13,13 +13,13 @@ RUN apk add --no-cache build-base python py-pip python-dev \
 RUN pip install -U pip cffi
 
 # Setup the ansible.
-RUN pip install ansible
+RUN pip install 'ansible>=2.3.0,<2.4.0'
 
 # for disable localhost warning message.
 RUN mkdir /etc/ansible && \
       /bin/echo -e "[local]\nlocalhost ansible_connection=local" > /etc/ansible/hosts
 
-RUN echo "===> Install some package for Latticework Inc...."  && \
+RUN echo "===> Install some package ..."  && \
       apk add --update --no-cache \
       bash \
       bash-completion \
@@ -30,11 +30,12 @@ RUN echo "===> Install some package for Latticework Inc...."  && \
       sshpass \
       vim
 
-RUN echo "===> Removing package cache..."  && \
-      apk del build-dependencies             ;\
-      rm -rf /var/cache/apk/*
+RUN echo "===> Removing package cache ..."  && \
+      apk del build-dependencies             ; \
+      rm -rf /var/cache/apk/*               && \
+      rm -rf ~/.cache/pip
 
-ONBUILD  RUN echo "===> Updating TLS certificates..."  && \
+ONBUILD  RUN echo "===> Updating TLS certificates ..."  && \
       apk add --update openssl ca-certificates
 
 WORKDIR /srv

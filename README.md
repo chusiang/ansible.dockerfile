@@ -1,18 +1,14 @@
 # Docker image: Ansible
 
-[![Docker Hub](https://img.shields.io/badge/docker-ansible-blue.svg)](https://hub.docker.com/r/chusiang/ansible/)
+[![Docker Hub](https://img.shields.io/badge/docker-ansible-blue.svg)](https://hub.docker.com/r/chusiang/ansible/) [![Docker Hub](https://img.shields.io/badge/os-alpine-blue.svg)](https://hub.docker.com/_/alpine/)
 
-A Docker image for run the [Ansible][ansible_official] v2.3.1.
+A Docker image for run the [Ansible][ansible_official] Engine on Alpine Linux.
 
 [ansible_official]:  https://www.ansible.com/
 
 ## Supported tags and respective `Dockerfile` links
 
-- `alpine-3.6`, `latest` [*(Dockerfile)*][dockerfile_alpine-3.6]
-
-[dockerfile_alpine-3.6]: alpine-3.6/Dockerfile
-
-
+- `2.3`, `latest` [*(Dockerfile)*](v2.3/Dockerfile)
 
 ## Build image
 
@@ -25,14 +21,14 @@ A Docker image for run the [Ansible][ansible_official] v2.3.1.
 1. Go to workspace.
 
     ```
-    $ cd ansible.dockerfile/alpine-3.6
+    $ cd ansible.dockerfile/<REVERSION>
     ```
 
 1. Bunild the image.
 
     ```
     $ docker build -t ansible .
-    $ docker build -t ansible:alpine-3.6 .
+    $ docker build -t ansible:<REVERSION> .
     ```
 
 ## Run container
@@ -65,7 +61,7 @@ Enjoy it !
 
 ## License
 
-MIT license from 2017.
+MIT license from 2017-2018.
 
 ## Author Information
 
