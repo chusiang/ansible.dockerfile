@@ -2,24 +2,24 @@ FROM alpine:3.7
 
 MAINTAINER Chu-Siang Lai <chusiang@drx.tw>
 
-# Update the index of available packages.
-RUN apk update
+RUN echo "===> Update the index of available packages ..."  && \
+      apk update
 
-# Install the requires apk package and python.
-RUN apk add --no-cache build-base python py-pip python-dev \
+RUN echo "===> Install the requires apk package and python ..."  && \
+      apk add --no-cache build-base python py-pip python-dev \
         libffi-dev openssl-dev
 
-# Upgrade the pip to lastest.
-RUN pip install -U pip cffi
+RUN echo "===> Upgrade the pip to lastest ..."  && \
+      pip install -U pip cffi
 
-# Setup the ansible.
-RUN pip install 'ansible>=2.4.0,<2.5.0'
+RUN echo "===> Install the ansible ..."  && \
+      pip install 'ansible>=2.4.0,<2.5.0'
 
-# Install the ansible-lint.
-RUN pip install 'ansible-lint'
+RUN echo "===> Install the ansible-lint ..."  && \
+      pip install 'ansible-lint'
 
-# for disable localhost warning message.
-RUN mkdir /etc/ansible && \
+RUN echo "===> Disable localhost warning message ..."  && \
+      mkdir /etc/ansible && \
       /bin/echo -e "[local]\nlocalhost ansible_connection=local" > /etc/ansible/hosts
 
 RUN echo "===> Install some package ..."  && \
@@ -38,8 +38,8 @@ RUN echo "===> Removing package cache ..."  && \
       rm -rf /var/cache/apk/*               && \
       rm -rf ~/.cache/pip
 
-ONBUILD  RUN echo "===> Updating TLS certificates ..."  && \
-      apk add --update openssl ca-certificates
+ONBUILD RUN echo "===> Updating TLS certificates ..."  && \
+      apk add --update --no-cache openssl ca-certificates
 
 WORKDIR /srv
 
