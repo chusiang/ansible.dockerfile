@@ -16,4 +16,4 @@ docker push $DOCKER_IMAGE:latest
 echo
 
 echo '===> Remove old image ...'
-docker rmi $(docker images | grep 'chusiang/ansible' | grep '<none>' | awk '{ print $3 }')
+docker rmi $(docker images | grep $DOCKER_IMAGE | grep '<none>' | awk '{ print $3 }')
