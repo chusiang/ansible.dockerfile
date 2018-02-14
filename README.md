@@ -1,9 +1,6 @@
 # Docker image: Ansible
 
-[![OS](https://img.shields.io/badge/os-alpine-blue.svg)](https://hub.docker.com/_/alpine/)
-[![Docker Hub](https://img.shields.io/badge/docker-ansible-blue.svg)](https://hub.docker.com/r/chusiang/ansible/)
-[![version](https://images.microbadger.com/badges/version/chusiang/ansible.svg)](https://microbadger.com/images/chusiang/ansible "Get your own version badge on microbadger.com")
-[![Download Size](https://images.microbadger.com/badges/image/chusiang/ansible.svg)](https://microbadger.com/images/chusiang/ansible "Get your own image badge on microbadger.com")
+[![OS](https://img.shields.io/badge/os-alpine-blue.svg)](https://hub.docker.com/_/alpine/) [![Docker Hub](https://img.shields.io/badge/docker-ansible-blue.svg)](https://hub.docker.com/r/chusiang/ansible/) [![version](https://images.microbadger.com/badges/version/chusiang/ansible.svg)](https://microbadger.com/images/chusiang/ansible "Get your own version badge on microbadger.com") [![Download Size](https://images.microbadger.com/badges/image/chusiang/ansible.svg)](https://microbadger.com/images/chusiang/ansible "Get your own image badge on microbadger.com")
 
 A Docker image for run the [Ansible][ansible_official] Engine on Alpine Linux.
 
