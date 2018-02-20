@@ -64,7 +64,8 @@ Enjoy it !
 
 ### 2018
 
-* 01/10: Refactor the architecture. Add v2.4 image and add the `ansible-lint` package.
+* 02/19: The `2.4` image has upgraded the ansible from `2.4.2` to `2.4.3`.
+* 01/10: Refactor the architecture. Add `2.4` image and add the `ansible-lint` package.
 
 ## License
 
