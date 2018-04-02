@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DOCKER_IMAGE="chusiang/ansible"
-DOCKER_TAG="2.4"
+DOCKER_TAG="2.5"
 
 echo '===> Pull current image ...'
 docker pull $DOCKER_IMAGE:$DOCKER_TAG
