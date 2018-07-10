@@ -10,7 +10,8 @@ A Docker image for run the [Ansible][ansible_official] Engine on Alpine Linux.
 
 - `2.3` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.3/Dockerfile)
 - `2.4` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.4/Dockerfile)
-- `2.5`, `latest` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.5/Dockerfile)
+- `2.5` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.5/Dockerfile)
+- `2.6`, `latest` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.6/Dockerfile)
 
 ## Build image
 
@@ -65,6 +66,7 @@ Enjoy it !
 
 ### 2018
 
+* 07/10: Add `2.6` image, the Ansible v2.6.0 release at [Thu Jun 28 14:38:38 2018 -0700](https://github.com/ansible/ansible/releases/tag/v2.6.0).
 * 04/03: Add `2.5` image, the Ansible v2.5.0 release at [Thu Mar 22 17:09:19 2018 -0700](https://github.com/ansible/ansible/releases/tag/v2.5.0).
 * 02/19: The `2.4` image has upgraded the ansible from `2.4.2` to `2.4.3`.
 * 01/10: Refactor the architecture. Add `2.4` image and add the `ansible-lint` package.
