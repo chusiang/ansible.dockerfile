@@ -12,7 +12,8 @@ A Docker image for run the [Ansible][ansible_official] Engine on Alpine Linux.
 - `2.4` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.4/Dockerfile)
 - `2.5` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.5/Dockerfile)
 - `2.6` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.6/Dockerfile)
-- `2.7`, `latest` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.7/Dockerfile)
+- `2.7` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.7/Dockerfile)
+- `2.8`, `latest` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.8/Dockerfile)
 
 ## Build image
 
@@ -65,6 +66,10 @@ Enjoy it !
 
 ## History
 
+### 2019
+
+* 07/04: Add `2.8` image, the Ansible v2.8.0 release at [May 17 2019](https://github.com/ansible/ansible/releases/tag/v2.8.0), and remove install the vim.
+
 ### 2018
 
 * 10/11: Add `2.7` image, the Ansible v2.7.0 release at [Wed Oct 3 20:26:57 2018 -0700](https://github.com/ansible/ansible/releases/tag/v2.7.0).
@@ -75,7 +80,7 @@ Enjoy it !
 
 ## License
 
-MIT license from 2017-2018.
+MIT license from 2017-2019.
 
 ## Author Information
 
