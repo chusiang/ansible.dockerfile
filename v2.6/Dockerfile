@@ -30,8 +30,7 @@ RUN echo "===> Install some package ..."  && \
       git \
       make \
       openssh-client \
-      sshpass \
-      vim
+      sshpass
 
 RUN echo "===> Removing package cache ..."  && \
       apk del build-dependencies             ; \
