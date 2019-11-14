@@ -30,6 +30,7 @@ RUN echo "===> Install some package ..."  && \
       git \
       make \
       openssh-client \
+      py-netaddr \
       sshpass
 
 RUN echo "===> Removing package cache ..."  && \

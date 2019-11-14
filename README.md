@@ -69,7 +69,7 @@ Enjoy it !
 
 ### 2019
 
-* 11/14: Add `2.9` image, the Ansible v2.9.0 release at [Oct 31 2019](https://github.com/ansible/ansible/releases/tag/v2.9.0).
+* 11/14: Add `2.9` image, the Ansible v2.9.0 release at [Oct 31 2019](https://github.com/ansible/ansible/releases/tag/v2.9.0), and add install `py-netaddr` package.
 * 07/04: Add `2.8` image, the Ansible v2.8.0 release at [May 17 2019](https://github.com/ansible/ansible/releases/tag/v2.8.0), and remove install the vim.
 
 ### 2018
