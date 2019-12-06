@@ -15,6 +15,9 @@ RUN echo "===> Upgrade the pip to lastest ..."  && \
 RUN echo "===> Install the ansible ..."  && \
       pip install 'ansible>=2.8.0,<2.9.0'
 
+RUN echo "===> Install the paramiko ..."  && \
+      pip install 'paramiko'
+
 RUN echo "===> Install the ansible-lint ..."  && \
       pip install 'ansible-lint'
 
