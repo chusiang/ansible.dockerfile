@@ -69,6 +69,7 @@ Enjoy it !
 
 ### 2019
 
+* 12/09: Refactor "Update the CA certificates" part for fixed "wget: error getting response: Connection reset by peer" problem. [[REF]](https://github.com/Yelp/dumb-init/issues/73)
 * 11/14: Add `2.9` image, the Ansible v2.9.0 release at [Oct 31 2019](https://github.com/ansible/ansible/releases/tag/v2.9.0), and add install `py-netaddr` package.
 * 07/04: Add `2.8` image, the Ansible v2.8.0 release at [May 17 2019](https://github.com/ansible/ansible/releases/tag/v2.8.0), and remove install the vim.
 
