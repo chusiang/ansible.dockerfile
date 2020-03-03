@@ -67,6 +67,10 @@ Enjoy it !
 
 ## History
 
+### 2020
+
+* 03/03 Add `ONBUILD` rule for copy current directory to `/srv/`.
+
 ### 2019
 
 * 12/09: Refactor "Update the CA certificates" part for fixed "wget: error getting response: Connection reset by peer" problem. [[REF]](https://github.com/Yelp/dumb-init/issues/73)
