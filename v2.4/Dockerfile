@@ -43,4 +43,7 @@ RUN echo "===> Removing package cache ..."  && \
 
 WORKDIR /srv
 
+ONBUILD WORKDIR /srv
+ONBUILD COPY . /srv
+
 CMD [ "ansible-playbook", "--version" ]

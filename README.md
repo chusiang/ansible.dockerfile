@@ -70,6 +70,9 @@ Enjoy it !
 ### 2021
 
 * 07/09: Add `2.10` image, the Ansible v2.10.0 release at [Aug 14 2020](https://github.com/ansible/ansible/releases/tag/v2.10.0).
+### 2020
+
+* 03/03 Add `ONBUILD` rule for copy current directory to `/srv/`.
 
 ### 2019
 
