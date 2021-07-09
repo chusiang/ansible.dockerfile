@@ -74,6 +74,7 @@ Enjoy it !
 * 07/09: Add `4` image, the Ansible v4.0.0 release at [May 18 2021](https://docs.ansible.com/ansible/latest/roadmap/COLLECTIONS_4.html).
 * 07/09: Add `3` image, the Ansible v3.0.0 release at [Feb 16 2021](https://docs.ansible.com/ansible/latest/roadmap/COLLECTIONS_3_0.html).
 * 07/09: Add `2.10` image, the Ansible v2.10.0 release at [Aug 14 2020](https://github.com/ansible/ansible/releases/tag/v2.10.0).
+
 ### 2020
 
 * 03/03 Add `ONBUILD` rule for copy current directory to `/srv/`.
