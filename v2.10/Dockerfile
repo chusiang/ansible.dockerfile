@@ -14,27 +14,27 @@ ONBUILD RUN echo "===> Update the CA certificates ..."                    && \
 RUN echo "===> Install the requires apk package and python ..."           && \
       apk add --no-cache  \
         build-base        \
-        cargo             \
         libffi-dev        \
         openssl-dev       \
+        py3-cryptography  \
+        py3-jinja2        \
+        py3-paramiko      \
         py3-pip           \
+        py3-six           \
+        py3-yaml          \
         python3           \
         python3-dev       \
         wget
 
 RUN echo "===> Upgrade the pip to lastest ..."                            && \
       pip3 install -U  \
-        pip           \
+        pip            \
         cffi
 
 RUN echo "===> Install the ansible ..."                                   && \
       pip3 install                                                           \
         'ansible>=2.10.0,<2.11.0'                                            \
-        paramiko                                                             \
-        ansible-lint                                                      && \
-      apk del                                                                \
-        cargo                                                                \
-        rust
+        ansible-lint
 
 RUN echo "===> Disable localhost warning message ..."                     && \
       mkdir /etc/ansible                                                  && \
