@@ -14,7 +14,8 @@ A Docker image for run the [Ansible][ansible_official] Engine on Alpine Linux.
 - `2.6` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.6/Dockerfile)
 - `2.7` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.7/Dockerfile)
 - `2.8` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.8/Dockerfile)
-- `2.9`, `latest` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.9/Dockerfile)
+- `2.9` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.9/Dockerfile)
+- `2.10`, `latest` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.10/Dockerfile)
 
 ## Build image
 
@@ -25,7 +26,6 @@ A Docker image for run the [Ansible][ansible_official] Engine on Alpine Linux.
     ```
 
 1. Go to workspace.
-
     ```
     $ cd ansible.dockerfile/<REVERSION>
     ```
@@ -66,6 +66,10 @@ A Docker image for run the [Ansible][ansible_official] Engine on Alpine Linux.
 Enjoy it !
 
 ## History
+
+### 2021
+
+* 07/09: Add `2.10` image, the Ansible v2.10.0 release at [Aug 14 2020](https://github.com/ansible/ansible/releases/tag/v2.10.0).
 
 ### 2019
 
