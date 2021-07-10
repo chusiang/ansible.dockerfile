@@ -14,12 +14,12 @@ A Docker image for run the [Ansible][ansible_official] Engine on Alpine Linux.
 - `2.6` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.6/Dockerfile)
 - `2.7` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.7/Dockerfile)
 - `2.8` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.8/Dockerfile)
-- `2.9`, `latest` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.9/Dockerfile): Suggest.
+- `2.9`, `latest` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.9/Dockerfile): Suggestion.
 - `2.10` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.10/Dockerfile)
 - `3`, [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v3/Dockerfile)
 - `4` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v4/Dockerfile)
 
-> The Ansible v2.9 has full support by Red Hat, please see the [Red Hat Ansible Engine Life Cycle |- Red Hat Customer Portal](https://access.redhat.com/support/policy/updates/ansible-engine).
+> Note: The Ansible v2.9 has full support by Red Hat, please see the "[Red Hat Ansible Engine Life Cycle | Red Hat Customer Portal](https://access.redhat.com/support/policy/updates/ansible-engine)".
 
 ## Build image
 
