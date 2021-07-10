@@ -14,10 +14,12 @@ A Docker image for run the [Ansible][ansible_official] Engine on Alpine Linux.
 - `2.6` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.6/Dockerfile)
 - `2.7` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.7/Dockerfile)
 - `2.8` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.8/Dockerfile)
-- `2.9` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.9/Dockerfile)
-- `2.10`, `2` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.10/Dockerfile)
+- `2.9`, `latest` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.9/Dockerfile): Suggest.
+- `2.10` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.10/Dockerfile)
 - `3`, [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v3/Dockerfile)
-- `4`, `latest` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v4/Dockerfile)
+- `4` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v4/Dockerfile)
+
+> The Ansible v2.9 has full support by Red Hat, please see the [Red Hat Ansible Engine Life Cycle |- Red Hat Customer Portal](https://access.redhat.com/support/policy/updates/ansible-engine).
 
 ## Build image
 
@@ -71,6 +73,7 @@ Enjoy it !
 
 ### 2021
 
+* 07/11: Refactor the Dockerfile of `2.9` with Python 3, and switch `latest` tag to `2.9`.
 * 07/09: Add `4` image, the Ansible v4.0.0 release at [May 18 2021](https://docs.ansible.com/ansible/latest/roadmap/COLLECTIONS_4.html).
 * 07/09: Add `3` image, the Ansible v3.0.0 release at [Feb 16 2021](https://docs.ansible.com/ansible/latest/roadmap/COLLECTIONS_3_0.html).
 * 07/09: Add `2.10` image, the Ansible v2.10.0 release at [Aug 14 2020](https://github.com/ansible/ansible/releases/tag/v2.10.0).
@@ -95,7 +98,7 @@ Enjoy it !
 
 ## License
 
-MIT license from 2017-2019.
+MIT license from 2017-2021.
 
 ## Author Information
 
