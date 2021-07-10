@@ -6,9 +6,9 @@ RUN echo "===> Update the index of available packages ..."                && \
       apk update
 
 ONBUILD RUN echo "===> Update the CA certificates ..."                    && \
-      apk add --update --no-cache \
-        ca-certificates           \
-        openssl                   \
+      apk add --update --no-cache                                            \
+        ca-certificates                                                      \
+        openssl                                                              \
       && update-ca-certificates
 
 RUN echo "===> Install the requires apk package and python ..."           && \
@@ -41,18 +41,18 @@ RUN echo "===> Disable localhost warning message ..."                     && \
       /bin/echo -e "[local]\nlocalhost ansible_connection=local" > /etc/ansible/hosts
 
 RUN echo "===> Install some package ..."                                  && \
-      apk add --update --no-cache   \
-        bash                        \
-        bash-completion             \
-        curl                        \
-        git                         \
-        make                        \
-        openssh-client              \
-        py-netaddr                  \
+      apk add --update --no-cache                                            \
+        bash                                                                 \
+        bash-completion                                                      \
+        curl                                                                 \
+        git                                                                  \
+        make                                                                 \
+        openssh-client                                                       \
+        py-netaddr                                                           \
         sshpass
 
-RUN echo "===> Removing package cache ..."  && \
-      rm -rf /var/cache/apk/*               && \
+RUN echo "===> Removing package cache ..."                                && \
+      rm -rf /var/cache/apk/*                                             && \
       rm -rf ~/.cache/pip
 
 WORKDIR /srv
