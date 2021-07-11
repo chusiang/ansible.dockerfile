@@ -1,10 +1,15 @@
 # Docker image: Ansible
 
-[![OS](https://img.shields.io/badge/os-alpine-blue.svg)](https://hub.docker.com/_/alpine/) [![Docker Hub](https://img.shields.io/badge/docker-ansible-blue.svg)](https://hub.docker.com/r/chusiang/ansible/) [![Download Size](https://img.shields.io/docker/image-size/chusiang/ansible?sort=date)](https://hub.docker.com/repository/docker/chusiang/ansible/tags)
+[![GitHub](https://img.shields.io/badge/github-chusiang/ansible.dockerfile-blue.svg)][github_repo] [![OS](https://img.shields.io/badge/os-alpine-blue.svg)][alpine_image] [![Download Size](https://img.shields.io/docker/image-size/chusiang/ansible?sort=date)][dockerhub_repo]
 
 A Docker image for run the [Ansible][ansible_official] Engine on Alpine Linux.
 
-[ansible_official]:  https://www.ansible.com/
+[![Docker hub](http://dockeri.co/image/chusiang/ansible?&kill_cache=1)][dockerhub_repo]
+
+[github_repo]: https://github.com/chusiang/ansible.dockerfile
+[alpine_image]: https://hub.docker.com/_/alpine/
+[dockerhub_repo]: https://hub.docker.com/repository/docker/chusiang/ansible
+[ansible_official]: https://www.ansible.com/
 
 ## Supported tags and respective `Dockerfile` links
 
@@ -104,4 +109,4 @@ MIT license from 2017-2021.
 
 ## Author Information
 
-1. [Chu-Siang Lai](https://github.com/chusiang/)
+1. [Chu-Siang Lai](https://note.drx.tw)
