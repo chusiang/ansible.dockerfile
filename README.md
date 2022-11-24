@@ -20,7 +20,6 @@ A Docker image for run the [Ansible][ansible_official] Engine on Alpine Linux.
 - `2.7` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/main/v2.7/Dockerfile) / EOL
 - `2.8` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/main/v2.8/Dockerfile) / EOL
 - `2.9` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/main/v2.9/Dockerfile)
-- `2.10` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/main/v2.10/Dockerfile) / EOL
 - `3` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/main/v3/Dockerfile)
 - `4` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/main/v4/Dockerfile)
 - `5` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/main/v5/Dockerfile)
@@ -84,6 +83,7 @@ Enjoy it !
 * 11/24 Add `5` image, the Ansible v5.0.1 release at [Dec 3, 2021](https://pypi.org/project/ansible/5.0.1/).
 * 11/24 Add `6` image, the Ansible v6.0.0 release at [Jun 22, 2022](https://pypi.org/project/ansible/6.0.0/).
 * 11/24 Add `7` image, the Ansible v7.0.0 release at [Nov 23, 2022](https://pypi.org/project/ansible/7.0.0/).
+* 11/24 Stop maintian `2.10` image and remove it, please use `3` image.
 
 ### 2021
 
