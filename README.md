@@ -13,16 +13,19 @@ A Docker image for run the [Ansible][ansible_official] Engine on Alpine Linux.
 
 ## Supported tags and respective `Dockerfile` links
 
-- `2.3` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.3/Dockerfile)
-- `2.4` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.4/Dockerfile)
-- `2.5` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.5/Dockerfile)
-- `2.6` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.6/Dockerfile)
-- `2.7` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.7/Dockerfile)
-- `2.8` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.8/Dockerfile)
-- `2.9`, `latest` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.9/Dockerfile): Suggestion.
-- `2.10` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v2.10/Dockerfile)
-- `3`, [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v3/Dockerfile)
-- `4` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/master/v4/Dockerfile)
+- `2.3` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/main/v2.3/Dockerfile) / EOL
+- `2.4` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/main/v2.4/Dockerfile) / EOL
+- `2.5` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/main/v2.5/Dockerfile) / EOL
+- `2.6` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/main/v2.6/Dockerfile) / EOL
+- `2.7` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/main/v2.7/Dockerfile) / EOL
+- `2.8` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/main/v2.8/Dockerfile) / EOL
+- `2.9` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/main/v2.9/Dockerfile)
+- `2.10` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/main/v2.10/Dockerfile) / EOL
+- `3` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/main/v3/Dockerfile)
+- `4` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/main/v4/Dockerfile)
+- `5` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/main/v5/Dockerfile)
+- `6` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/main/v6/Dockerfile)
+- `2.14`, `latest` [*(Dockerfile)*](https://github.com/chusiang/ansible.dockerfile/blob/main/v2.14/Dockerfile)
 
 > Note: The Ansible v2.9 has full support by Red Hat, please see the "[Red Hat Ansible Engine Life Cycle | Red Hat Customer Portal](ansible_engine_life_cycle)".
 
@@ -77,6 +80,11 @@ A Docker image for run the [Ansible][ansible_official] Engine on Alpine Linux.
 Enjoy it !
 
 ## History
+
+### 2022
+
+* 11/24 Add `5` image, the Ansible v5.0.1 release at [Dec 3, 2021](https://pypi.org/project/ansible/5.0.1/).
+* 11/24 Add `6` image, the Ansible v6.0.0 release at [Jun 22, 2022](https://pypi.org/project/ansible/6.0.0/).
 
 ### 2021
 
