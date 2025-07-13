@@ -63,7 +63,7 @@ RUN echo "===> Installing runtime dependencies..." && \
 
 RUN echo "===> Disable localhost warning message ..." && \
   mkdir /etc/ansible && \
-  /bin/echo -e "[local]\nlocalhost ansible_connection=local" > /etc/ansible/hosts
+  printf "[local]\nlocalhost ansible_connection=local" > /etc/ansible/hosts
 
 RUN echo "===> Switch normal user for security ..." && \
   adduser -D ansibull
