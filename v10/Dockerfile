@@ -33,7 +33,7 @@ RUN echo "===> Install apk packages ..." && \
 
 RUN echo "===> Install pip packages ..." && \
   pip3 install 'ansible>=10.0.0,<11.0.0' 'ansible-lint>=24,<25' \
-  --break-system-packages && \
+  --break-system-packages --no-cache-dir && \
   rm -rf ~/.cache/pip
 
 # --- Stage 2: Runtime -----------------------------------------------
@@ -63,7 +63,7 @@ RUN echo "===> Installing runtime dependencies..." && \
 
 RUN echo "===> Disable localhost warning message ..." && \
   mkdir /etc/ansible && \
-  /bin/echo -e "[local]\nlocalhost ansible_connection=local" > /etc/ansible/hosts
+  printf "[local]\nlocalhost ansible_connection=local" > /etc/ansible/hosts
 
 RUN echo "===> Switch normal user for security ..." && \
   adduser -D ansibull
