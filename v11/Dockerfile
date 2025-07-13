@@ -33,7 +33,7 @@ RUN echo "===> Install apk packages ..." && \
 
 RUN echo "===> Install pip packages ..." && \
   pip3 install 'ansible>=11.0.0,<12.0.0' 'ansible-lint>=25,<26' \
-  --break-system-packages && \
+  --break-system-packages --no-cache-dir && \
   rm -rf ~/.cache/pip
 
 # --- Stage 2: Runtime -----------------------------------------------
