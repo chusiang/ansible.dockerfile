@@ -101,9 +101,9 @@ Enjoy it !
 
 ### 2022
 
-- 11/24 Add `5` image, the Ansible v5.0.1 release at [Dec 3, 2021](https://pypi.org/project/ansible/5.0.1/).
-- 11/24 Add `6` image, the Ansible v6.0.0 release at [Jun 22, 2022](https://pypi.org/project/ansible/6.0.0/).
 - 11/24 Add `7` image, the Ansible v7.0.0 release at [Nov 23, 2022](https://pypi.org/project/ansible/7.0.0/).
+- 11/24 Add `6` image, the Ansible v6.0.0 release at [Jun 22, 2022](https://pypi.org/project/ansible/6.0.0/).
+- 11/24 Add `5` image, the Ansible v5.0.1 release at [Dec 3, 2021](https://pypi.org/project/ansible/5.0.1/).
 - 11/24 Stop maintian `2.10` image and remove it, please use `3` image.
 
 ### 2021
