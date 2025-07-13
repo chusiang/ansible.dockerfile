@@ -13,16 +13,16 @@ A Docker image for run the [Ansible][ansible_official] Engine on Alpine Linux.
 
 ## Supported tags and respective `Dockerfile` links
 
-- `2.9` [_(Dockerfile)_](https://github.com/chusiang/ansible.dockerfile/blob/main/v2.9/Dockerfile)
-- `3` [_(Dockerfile)_](https://github.com/chusiang/ansible.dockerfile/blob/main/v3/Dockerfile)
-- `4` [_(Dockerfile)_](https://github.com/chusiang/ansible.dockerfile/blob/main/v4/Dockerfile)
-- `5` [_(Dockerfile)_](https://github.com/chusiang/ansible.dockerfile/blob/main/v5/Dockerfile)
-- `6` [_(Dockerfile)_](https://github.com/chusiang/ansible.dockerfile/blob/main/v6/Dockerfile)
-- `7` [_(Dockerfile)_](https://github.com/chusiang/ansible.dockerfile/blob/main/v7/Dockerfile)
-- `8` [_(Dockerfile)_](https://github.com/chusiang/ansible.dockerfile/blob/main/v8/Dockerfile)
-- `9` [_(Dockerfile)_](https://github.com/chusiang/ansible.dockerfile/blob/main/v9/Dockerfile)
-- `10` [_(Dockerfile)_](https://github.com/chusiang/ansible.dockerfile/blob/main/v10/Dockerfile)
 - `11`, `latest` [_(Dockerfile)_](https://github.com/chusiang/ansible.dockerfile/blob/main/v11/Dockerfile)
+- `10` [_(Dockerfile)_](https://github.com/chusiang/ansible.dockerfile/blob/main/v10/Dockerfile)
+- `9` [_(Dockerfile)_](https://github.com/chusiang/ansible.dockerfile/blob/main/v9/Dockerfile)
+- `8` [_(Dockerfile)_](https://github.com/chusiang/ansible.dockerfile/blob/main/v8/Dockerfile)
+- `7` [_(Dockerfile)_](https://github.com/chusiang/ansible.dockerfile/blob/main/v7/Dockerfile)
+- `6` [_(Dockerfile)_](https://github.com/chusiang/ansible.dockerfile/blob/main/v6/Dockerfile)
+- `5` [_(Dockerfile)_](https://github.com/chusiang/ansible.dockerfile/blob/main/v5/Dockerfile)
+- `4` [_(Dockerfile)_](https://github.com/chusiang/ansible.dockerfile/blob/main/v4/Dockerfile)
+- `3` [_(Dockerfile)_](https://github.com/chusiang/ansible.dockerfile/blob/main/v3/Dockerfile)
+- `2.9` [_(Dockerfile)_](https://github.com/chusiang/ansible.dockerfile/blob/main/v2.9/Dockerfile)
 
 > Note: `ansible` current version is v11.7.0 (`ansible-core` v2.18.6). Please
 > see the "[Releases and maintenance | Ansible Documentation][release_and_maintenance]".
