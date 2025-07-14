@@ -4,7 +4,7 @@
 
 A Docker image for run the [Ansible][ansible_official] Engine on Alpine Linux.
 
-[![Docker hub](http://dockeri.co/image/chusiang/ansible?&kill_cache=1)][dockerhub_repo]
+[![Docker hub](https://hub.docker.com/r/chusiang/ansible)][dockerhub_repo]
 
 [github_repo]: https://github.com/chusiang/ansible.dockerfile
 [alpine_image]: https://hub.docker.com/_/alpine/
